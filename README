@@ -1,0 +1,47 @@
+MP2 Readme File
+
+Basic Information
+PLATFORM OSX
+OS Version OSX 10.11.3
+Build Environment Make
+Build Environment Version GNU Make 3.81
+Language C++
+External Libraries Used GL, GLUT, GLU
+
+Build Instructions
+Simply run make. No build configuration changes should be neccessary. I only tested this on Mac but it should work on Linux as well.
+
+$ make
+
+CONTROLS:
+
+PLANE CONTROLS
+w       Speed up
+a       Yaw left
+s       Slow down
+d       Yaw right
+
+e       Move down
+r       Move up
+
+UP      Tilt nose down
+DOWN    Tilt nose up
+LEFT    Rotate left
+RIGHT   Rotate right
+
+SCENERY CONTROLS
+-       Decrease the water level
+=       Increase the water level
+f       Increase the scale
+c       Decrease the scale
+
+GENERAL CONTROLS
+p       Pause
+q       Quit
+
+
+Run with:
+$ ./mp2
+
+Location of Video Demo
+https://youtu.be/Mp2nupvOUcU
