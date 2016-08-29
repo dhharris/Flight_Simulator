@@ -6,9 +6,9 @@ LDFLAGS = $(libgl_$(shell uname -s))
 libgl_Linux = -lGL -lglut -lm -lGLU 
 libgl_Darwin = -framework OpenGL -framework GLUT
 
-mp2: $(obj)
+flight: $(obj)
 	$(CXX) -o $@ $^ $(LDFLAGS)
 
 .PHONY: clean
 clean:
-	rm -f *.o mp2
+	rm -f *.o flight
